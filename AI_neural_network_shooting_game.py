@@ -3,13 +3,13 @@
 #with really minimalist graphics. The AI plays the
 #green square and the enemy plays the red squares.
 #AI has to neutralize the randomly appearing hostile
-#spaceships by the help of a beam gun, otherwise the malignant
+#spaceships by the help of a beam gun, otherwise the red
 #objects will shoot it down. The beam gun has a bursting charge
 #that explodes at the very end of the beam (symbolized by the end of the white line).
 #This has to be inside the hostile objects and strictly not only on the edge
 #of them, otherwise the shoots are nugatory and the spaceship of the AI will lose.
 #AI is a bit faster than the enemy, so the AI to shoot first each time.
-#Once a malignant object is shot down, a new one will be appearing randomly
+#Once a red object is shot down, a new one will be appearing randomly
 #on the map. To make it more complicated for the AI, hostile spaceships will
 #become smaller and smaller as the game proceeds. You can make the AI learn
 #in the shooting range by setting the number in line 83. The bigger the number
